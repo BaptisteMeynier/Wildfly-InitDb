@@ -1,7 +1,5 @@
 package com.javaee8.rest;
 
-import liquibase.integration.cdi.annotations.LiquibaseType;
-
 import javax.annotation.Resource;
 import javax.inject.Inject;
 import javax.inject.Named;
