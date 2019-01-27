@@ -7,7 +7,7 @@ import javax.sql.DataSource;
 
 @ApplicationScoped
 public class DatasourceProvider {
-    @Resource(lookup = "java:/jdbc/nuxe/nuxeDs")
+    @Resource(lookup = "java:/jdbc/market/bookDs")
     private DataSource bookDatasource;
 
     @Produces
